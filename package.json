@@ -1,0 +1,17 @@
+{
+  "name": "miraj-group",
+  "version": "1.0.0",
+  "description": "A static web page..",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "vijay gehlot",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.10"
+  }
+}
